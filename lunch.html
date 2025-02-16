@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Menu</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f0f8ff;
+                text-align: center;
+                margin: 0;
+                padding: 0;
+            }
+
+            h2 {
+                background-color: #0073e6;
+                color: aliceblue;
+                padding: 15px;
+                margin-bottom: 30px;
+                font-size: 36px;
+                text-transform: uppercase;
+            }
+
+            .container {
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                gap: 30px;
+                padding: 20px;
+            }
+
+            .item {
+                text-align: center;
+                background-color: #fff;
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                width: 250px;
+                padding: 20px;
+                transition: transform 0.3s ease;
+            }
+
+            .item img {
+                width: 100%;
+                border-radius: 10px;
+                margin-bottom: 15px;
+            }
+
+            .item:hover {
+                transform: translateY(-10px);
+            }
+
+            .item h3 {
+                font-size: 24px;
+                color: #333;
+            }
+
+            .item p {
+                font-size: 16px;
+                color: #666;
+            }
+
+            .item a {
+                text-decoration: none;
+                color: inherit;
+            }
+        </style>
+    </head>
+    <body>
+
+        <h2>Lunch Menu</h2>
+        <div class="container">
+            <div class="item">
+                <a href="pizza.html">
+                    <img src="https://th.bing.com/th/id/OIP.2dhr5Ln6cMHIu9SmwE_uBgHaE7?w=266&h=180&c=7&r=0&o=5&pid=1.7" alt="Pizza">
+                    <h3>Pizza</h3>
+                    <p>Cheesy and delicious pizza with various toppings.</p>
+                </a>
+            </div>
+            <div class="item">
+                <a href="pasta.html">
+                    <img src="https://th.bing.com/th/id/OIP.fUV8cTmCx4JDtVjoUG_r3QHaLH?w=184&h=276&c=7&r=0&o=5&pid=1.7" alt="Pasta">
+                    <h3>Pasta</h3>
+                    <p>Rich and creamy pasta cooked to perfection.</p>
+                </a>
+            </div>
+            <div class="item">
+                <a href="chole-bhature.html">
+                    <img src="https://th.bing.com/th/id/OIP.YGqlNOtPrArJPfnkCF7kAAHaJQ?w=131&h=180&c=7&r=0&o=5&pid=1.7" alt="Chole Bhature">
+                    <h3>Chole Bhature</h3>
+                    <p>Spiced chickpea curry served with fluffy deep-fried bread.</p>
+                </a>
+            </div>
+        </div>
+
+    </body>
+</html>

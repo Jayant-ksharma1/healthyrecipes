@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Breakfast</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f0f8ff;
+                text-align: center;
+                margin: 0;
+                padding: 0;
+            }
+
+            h2 {
+                background-color: #0073e6;
+                color: aliceblue;
+                padding: 15px;
+                margin-bottom: 30px;
+                font-size: 36px;
+                text-transform: uppercase;
+            }
+
+            .container {
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                gap: 30px;
+                padding: 20px;
+            }
+
+            .item {
+                text-align: center;
+                background-color: #fff;
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                width: 250px;
+                padding: 20px;
+                transition: transform 0.3s ease;
+            }
+
+            .item img {
+                width: 100%;
+                border-radius: 10px;
+                margin-bottom: 15px;
+            }
+
+            .item:hover {
+                transform: translateY(-10px);
+            }
+
+            .item h3 {
+                font-size: 24px;
+                color: #333;
+            }
+
+            .item p {
+                font-size: 16px;
+                color: #666;
+            }
+
+            .item a {
+                text-decoration: none;
+                color: inherit;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Breakfast Menu</h2>
+        <div class="container">
+            <div class="item">
+                <a href="dosa.html">
+                    <img src="https://th.bing.com/th?id=OIP.4o-XcBAer1qDcTi-IKya0QHaEK&w=333&h=187&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" alt="Dosa">
+                    <h3>Dosa</h3>
+                    <p>Crispy rice crepe served with chutneys and sambar.</p>
+                </a>
+            </div>
+            <div class="item">
+                <a href="idli.html">
+                    <img src="https://th.bing.com/th?id=OSK.HEROlfGlWmWf6CFnHNSAtds4HW-Tl6kHlHARnu4uoGTN-jE&w=312&h=200&c=7&rs=1&o=6&pid=SANGAM" alt="Idli">
+                    <h3>Idli</h3>
+                    <p>Soft steamed rice cakes served with chutneys and sambar.</p>
+                </a>
+            </div>
+            <div class="item">
+                <a href="aloo-parantha.html">
+                    <img src="https://th.bing.com/th?id=OSK.HEROtnBkozz5nAEH04XTlbq2ef3kzrlrtfgFJgTm4xa6h5g&w=312&h=200&c=15&rs=2&o=6&pid=SANGAM" alt="Aloo Paratha">
+                    <h3>Aloo Paratha</h3>
+                    <p>Flatbread stuffed with spiced mashed potatoes, served with yogurt.</p>
+                </a>
+            </div>
+        </div>
+    </body>
+</html>
